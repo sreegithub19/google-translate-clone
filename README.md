@@ -1,10 +1,10 @@
 > [Development Practice Challenge : Build a Language Translation App](https://www.topcoder.com/challenges/030bdfc4-37d1-4b71-80a4-cbc6173a7a06)
 
 ### After cloning into system, steps:
-Commands / steps:
-(i) npm init
-(ii) npm install
-(iii) npm run dev
+Commands / steps: <br>
+(i) npm init<br>
+(ii) npm install<br>
+(iii) npm run dev<br>
 
 ## Stacks
 - [NextJS](https://nextjs.org/)
