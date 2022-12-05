@@ -2,6 +2,13 @@
 
 ### After cloning into system, steps:
 
+Versions used:
+
+- Angular CLI: 14.1.2
+- Node: 16.10.0
+- Package Manager: npm 7.24.0
+
+
 Commands / steps: <br>
 (i) npm init<br>
 (ii) npm install<br>
