@@ -1,12 +1,14 @@
 > [Development Practice Challenge : Build a Language Translation App](https://www.topcoder.com/challenges/030bdfc4-37d1-4b71-80a4-cbc6173a7a06)
 
 ### After cloning into system, steps:
+
 Commands / steps: <br>
 (i) npm init<br>
 (ii) npm install<br>
 (iii) npm run dev<br>
 
 ## Stacks
+
 - [NextJS](https://nextjs.org/)
 - [Reactstrap](https://reactstrap.github.io/)
 
@@ -20,24 +22,27 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ![image](https://user-images.githubusercontent.com/13632885/143838892-0ba8052d-2896-487c-9762-1dbe5e1a53dd.png)
 
-
 ### API
 
 Use HTTP Client Extension such as [Postman](https://www.postman.com) and [Thunder Client](https://www.thunderclient.io) to test it.
 
 - URL `http://localhost:3000/api/translate`
 - Method `POST`
-- Body  
+- Body
+
 ```json
 {
-  "sl":"id",
-  "tl":"en",
-  "q":"Hore"
+  "sl": "id",
+  "tl": "en",
+  "q": "Hore"
 }
 ```
+
 `sl` and `tl` are language codes, you can find them on [here](https://developers.google.com/admin-sdk/directory/v1/languages).
 `q` is the text you want to be translated.
+
 - Response
+
 ```json
 {
   "sentences": [
@@ -86,4 +91,3 @@ Use HTTP Client Extension such as [Postman](https://www.postman.com) and [Thunde
   }
 }
 ```
-
